@@ -1,4 +1,4 @@
-rtp-sqs-producer
+rtp-sqs-producer [![Build Status](https://travis-ci.org/UKHomeOffice/rtp-sqs-producer.svg)](https://travis-ci.org/UKHomeOffice/rtp-sqs-producer)
 -----------------
 
 Very thin wrapper around amazon sqs. Provides little more than a friendly interface to publish messages to the sqs queue, and

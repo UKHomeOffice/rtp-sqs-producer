@@ -14,11 +14,11 @@ function Producer(conf) {
     let config = conf || {};
     this._retryTimes = config.retryTimes || 1;
     this._retryInterval = config.retryInterval || ((config.retryTimes === 1) ? 0 : 10000);
-    this._queueUrl = config.queueUrl || 'queue_url';
+    this._queueUrl = config.queueUrl || 'http://sqs.eu-west-1.amazonaws.com/123456789012/queue2';
     this._sqs = new aws.SQS({
         region: process.env.aws_region || config.region || 'eu-west-1',
-        accessKeyId: process.env.AWS_SQS_ACCESS_KEY_ID || '123456',
-        secretAccessKey: process.env.AWS_SQS_SECRET_ACCESS_KEY || 'ABCD',
+        accessKeyId: process.env.AWS_SQS_ACCESS_KEY_ID || '123456123456123456123456',
+        secretAccessKey: process.env.AWS_SQS_SECRET_ACCESS_KEY || 'ABCDABCDABCDABCDABCD',
         params: {
             QueueUrl: this._queueUrl
         }

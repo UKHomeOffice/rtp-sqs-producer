@@ -1,0 +1,6 @@
+extends:
+- '../.eslintrc'
+- 'homeoffice/config/testing'
+rules:
+  no-shadow: 0
+  no-underscore-dangle: 0

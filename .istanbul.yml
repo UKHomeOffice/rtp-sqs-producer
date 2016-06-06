@@ -1,0 +1,9 @@
+verbose: false
+instrumentation:
+  root: .
+  include-all-sources: true
+reporting:
+    print: summary
+    reports:
+      - html
+      - cobertura

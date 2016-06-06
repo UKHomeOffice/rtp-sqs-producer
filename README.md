@@ -12,3 +12,5 @@ Use
     
 The module assumes that you have injected your amazon sqs credentials into `process.env`.
 
+Anyone (internal or external) can report concerns with published code by emailing evw-contactus@homeoffice.gsi.gov.uk.
+

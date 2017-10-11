@@ -8,6 +8,10 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
+  "engines": {
+    "node": "^6.11.4",
+    "npm": "^5.4.2"
+  },
   "dependencies": {
     "aws-sdk": "^2.3.6",
     "es6-promisify": "^4.0.0",

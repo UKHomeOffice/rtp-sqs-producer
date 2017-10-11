@@ -4,3 +4,4 @@ node_modules/
 coverage/
 npm-debug.log
 xunit.xml
+package-lock.json
